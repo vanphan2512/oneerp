@@ -10465,6 +10465,16 @@ p:last-child {
       .about-area .about-image {
         text-align: center;
         margin-bottom: 35px; } }
+  .about-area .aboutus-content .about-title {
+    margin-bottom: 20px;
+  }
+  .about-area .aboutus-content .about-subtitle {
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .about-area .aboutus-content .p {
+    
+  }
   .about-area .about-content {
     padding-right: 0px; }
    
@@ -10645,7 +10655,7 @@ p:last-child {
     right: 0;
     bottom: 0;
     min-width: 100%;
-    border-bottom: 2px solid #5764ec;
+    border-bottom: 2px solid #eb2529;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     transform: scaleX(0);
@@ -10672,7 +10682,7 @@ p:last-child {
     .single-services-box .services-btn .services-btn-one {
       display: inline-block;
       font-size: 17px;
-      color: #5764ec;
+      color: #55575a;
       font-weight: 600;
       letter-spacing: 0.5px;
       -webkit-transition: all 400ms ease-out;
@@ -10696,7 +10706,7 @@ p:last-child {
     line-height: 80px;
     border: 1px solid #f5f6ff;
     border-radius: 50%;
-    color: #5764ec;
+    color: #fff;
     margin-bottom: 20px;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -10711,7 +10721,7 @@ p:last-child {
       right: 0;
       top: 0;
       bottom: 0;
-      background-color: #f5f6ff;
+      background-color: #eb25294a;
       z-index: -1;
       border-radius: 50%;
       margin: 5px;
@@ -10729,7 +10739,7 @@ p:last-child {
     .single-services-box:hover::before {
       transform: scaleX(1); }
     .single-services-box:hover .services-icon {
-      border-color: #5764ec;
+      border-color: #eb2529;
       color: #ffffff;
       -webkit-transform: scale(0.98);
       -moz-transform: scale(0.98);
@@ -10737,9 +10747,9 @@ p:last-child {
       -o-transform: scale(0.98);
       transform: scale(0.98); }
     .single-services-box:hover .services-icon::before {
-      background: #5764ec; }
+      background: #eb2529; }
     .single-services-box:hover .services-btn .services-btn-one {
-      color: #333; }
+      color: #000; }
     .single-services-box:hover .services-btn i {
       color: #333; }
 
@@ -11022,7 +11032,9 @@ p:last-child {
   .project-item-box .single-project-link {
     display: block; }
     .project-item-box .single-project-link img {
-      border-radius: 5px; }
+      border-radius: 5px; 
+      height: 300px;
+    }
     .project-item-box .single-project-link .project-link-title-box {
       background-color: transparent;
       margin: 0 15px;
@@ -11079,7 +11091,7 @@ p:last-child {
           -webkit-transform: rotateX(0); }
         .project-item-box .single-project-link .project-link-title-box .project-link-title-inside .project-link-flip-back {
           background-color: #5764ec;
-          background: linear-gradient(-48deg, #c6fdb8 -30%, #5764ec 60%);
+          background: linear-gradient(-48deg, #ffffff -30%, #eb2529 60%);
           color: #fff;
           transform: rotateX(180deg);
           height: 100%;
@@ -11543,7 +11555,7 @@ p:last-child {
   .home-slider-content .home-slider-title {
     color: #333;
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 20px; }
     @media (max-width: 767px) {
       .home-slider-content .home-slider-title {
@@ -11723,6 +11735,12 @@ p:last-child {
   margin-top: 30px; }
   .contact-info-box .single-contact-box img {
     margin-bottom: 30px; }
+ .single-contact-box .contact-info li{
+      margin-bottom: 20px;
+    }
+.single-contact-box .contact-info li .title{
+      font-weight: 500;
+    }
 
 .contact-section .form-message {
   margin: 0; }
@@ -12054,3 +12072,42 @@ p:last-child {
 .single-privacy h3, .single-privacy .h3 {
   font-size: 25px;
   margin: 0 0 20px 0; }
+
+  .user-item .title-name {
+    margin-bottom: 10px;
+    color: #eb1e23;
+}
+.user-item .title-position {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.our-technologies-item{
+  margin-top: 20px;
+}
+.our-technologies-item .item-head {
+  position: relative;
+}
+.our-technologies-item .item-head .icon {
+  background: #ec1f24;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+.our-technologies-item .item-head .number {
+  position: absolute;
+  left: 52px;
+  top: 30px;
+  color: #343639;
+  font-size: 50px;
+}
+.our-technologies-item .item-content {
+  margin-top: 30px;
+}
+.our-technologies-item .item-content h2 {
+  color: #343639;
+  margin-bottom: 10px;
+}
