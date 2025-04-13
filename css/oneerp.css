@@ -12134,3 +12134,17 @@ margin-top: 10px;
     margin-bottom: 5px;
     font-size: 14px;
 }
+
+.list-about-product{
+  padding-left: 30px;
+}
+.list-about-product li{
+    margin-bottom: 5px;
+    font-size: 14px;
+    list-style: disc;
+}
+
+.about-image-product img{
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
