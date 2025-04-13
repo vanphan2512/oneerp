@@ -10495,9 +10495,7 @@ p:last-child {
           font-size: 22px;
         }
       }
-    .about-area .about-content ul.about-list-box {
-      max-width: 400px;
-      margin-top: 30px; }
+    .about-area .about-content ul.about-list-box {margin-top: 30px; }
       .about-area .about-content ul.about-list-box li {
         display: flex;
         margin-bottom: 25px; }
