@@ -10472,9 +10472,7 @@ p:last-child {
     margin-bottom: 20px;
     font-style: italic;
   }
-  .about-area .aboutus-content .p {
-    
-  }
+
   .about-area .about-content {
     padding-right: 0px; }
    
@@ -12108,4 +12106,31 @@ p:last-child {
 .our-technologies-item .item-content h2 {
   color: #343639;
   margin-bottom: 10px;
+}
+
+
+
+.services-area .title {
+  margin-bottom: 20px;
+}
+.services-area .subtitle {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.service-item {
+  margin-bottom: 20px;
+}
+.service-item .item-title{
+margin-top: 10px;
+}
+.service-item .item-list{
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.list-tools{
+  padding-left: 30px;
+}
+.list-tools li{
+    margin-bottom: 5px;
+    font-size: 14px;
 }
